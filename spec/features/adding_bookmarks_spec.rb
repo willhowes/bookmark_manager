@@ -7,6 +7,7 @@ feature 'add bookmarks to the bookmark manager' do
     visit('/bookmarks/new')
     fill_in('url', with: 'www.bbc.co.uk')
     click_button 'Submit'
-    expect(page).to have_content 'www.bbc.co.uk' 
+    save_and_open_page
+    expect(page).to have_content 'www.bbc.co.uk'
   end
 end

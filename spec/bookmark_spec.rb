@@ -7,15 +7,12 @@ describe Bookmark do
 
   describe '#.all' do
     it 'returns all saved bookmarks' do
-      connection = PG.connect(dbname: 'bookmark_manager_test')
-
+      test_connection = PG.connect(dbname: 'bookmark_manager_test')
 
       # Add the test data
-      connection.exec("INSERT INTO bookmarks (url) VALUES ('www.google.com');")
-      connection.exec("INSERT INTO bookmarks (url) VALUES('www.makersacademy.com');")
-      connection.exec("INSERT INTO bookmarks (url) VALUES('www.twitter.com');")
-
-
+      test_connection.exec("INSERT INTO bookmarks (url) VALUES ('www.google.com');")
+      test_connection.exec("INSERT INTO bookmarks (url) VALUES('www.makersacademy.com');")
+      test_connection.exec("INSERT INTO bookmarks (url) VALUES('www.twitter.com');")
 
       bookmarks = Bookmark.all
 

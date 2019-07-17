@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/bookmark_manager/spec/bookmark_spec.rb": [
+      "/Users/kajapolkowska/Desktop/Makers_Course/bookmark_manager/spec/bookmark_spec.rb": [
         null,
         1,
         null,
@@ -14,12 +14,9 @@
         1,
         null,
         null,
-        null,
         1,
         1,
         1,
-        null,
-        null,
         null,
         1,
         null,
@@ -31,7 +28,7 @@
         null,
         null
       ],
-      "/Users/student/Projects/bookmark_manager/lib/bookmark.rb": [
+      "/Users/kajapolkowska/Desktop/Makers_Course/bookmark_manager/lib/bookmark.rb": [
         1,
         null,
         1,
@@ -49,11 +46,12 @@
         null,
         null
       ],
-      "/Users/student/Projects/bookmark_manager/spec/features/adding_bookmarks_spec.rb": [
+      "/Users/kajapolkowska/Desktop/Makers_Course/bookmark_manager/spec/features/adding_bookmarks_spec.rb": [
         null,
         null,
         null,
         null,
+        1,
         1,
         1,
         1,
@@ -63,7 +61,7 @@
         null,
         null
       ],
-      "/Users/student/Projects/bookmark_manager/spec/features/user_stories_spec.rb": [
+      "/Users/kajapolkowska/Desktop/Makers_Course/bookmark_manager/spec/features/user_stories_spec.rb": [
         1,
         1,
         1,
@@ -75,7 +73,7 @@
         null,
         null
       ],
-      "/Users/student/Projects/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/kajapolkowska/Desktop/Makers_Course/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": [
         null,
         1,
         null,
@@ -97,6 +95,6 @@
         null
       ]
     },
-    "timestamp": 1563292183
+    "timestamp": 1563354632
   }
 }
